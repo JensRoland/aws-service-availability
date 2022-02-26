@@ -1,0 +1,41 @@
+default_stages: [commit, push]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.5.0
+    hooks:
+      - id: check-yaml
+        name: Validate YAML syntax
+      - id: end-of-file-fixer
+        name: Fix End-of-File blank lines
+        exclude: ^(LICENSE|requirements.txt)$
+
+  - repo: local
+    hooks:
+      - id: pyupgrade
+        name: pyupgrade - Upgrade Python code to the latest standard
+        entry: poetry run pyupgrade --py37-plus
+        types: [python]
+        language: system
+        files: ^src/
+
+      - id: isort
+        name: isort - reorder Python imports
+        entry: poetry run isort --settings-path pyproject.toml
+        types: [python]
+        language: system
+        require_serial: true
+
+      - id: black
+        name: black - reformat Python code
+        entry: poetry run black --config pyproject.toml
+        types: [python]
+        language: system
+        require_serial: true
+
+      - id: pylint
+        name: pylint
+        entry: poetry run pylint
+        types: [python]
+        language: system
+        require_serial: true
