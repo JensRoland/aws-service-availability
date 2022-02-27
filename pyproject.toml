@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "aws-service-availability"
-version = "0.1.0"
+version = "1.0.0"
 description = "CLI tool for listing (un)available AWS services by region"
 readme = "README.md"
 authors = ["JensRoland <mail@jensroland.com>"]
