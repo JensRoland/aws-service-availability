@@ -24,22 +24,24 @@ CLI tool for listing (un)available AWS services by region, because the [AWS regi
 pip install -U aws-service-availability
 ```
 
-or install with `Poetry`
+or install with `Poetry`:
 
 ```bash
 poetry add aws-service-availability
 ```
 
-Then you can run
+Then you can run the tool:
 
 ```bash
-aws-service-availability --help
+aws-service-availability list-supported-services eu-north-1
+aws-service-availability list-unsupported-services eu-north-1
 ```
 
 or with `Poetry`:
 
 ```bash
-poetry run aws-service-availability --help
+poetry run aws-service-availability list-supported-services eu-north-1
+poetry run aws-service-availability list-unsupported-services eu-north-1
 ```
 
 ## 📈 Releases
