@@ -15,7 +15,8 @@ CLI tool for listing (un)available AWS services by region, because the [AWS regi
 
 ## 🚀 Features
 
-- TODO
+- List all the supported services for a given AWS region
+- List all the unsupported services for a given AWS region
 
 ## Installation
 
