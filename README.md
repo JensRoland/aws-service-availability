@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/jensroland/aws-service-availability)](https://github.com/jensroland/aws-service-availability/blob/main/LICENSE)
 ![Coverage Report](assets/images/coverage.svg)
 
-CLI tool for listing (un)available AWS services by region
+CLI tool for listing (un)available AWS services by region, because the [AWS regional services page](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) no longer contains the useful table of supported services.
 
 </div>
 
