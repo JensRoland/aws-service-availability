@@ -46,7 +46,7 @@ rich = "^10.14.0"
 requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
-bandit = "^1.7.1"
+bandit = "^1.7.4"
 black = {version = "^22.1.0"}
 darglint = "^1.8.1"
 isort = {extras = ["colors"], version = "^5.10.1"}
