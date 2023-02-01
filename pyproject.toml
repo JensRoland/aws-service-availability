@@ -47,7 +47,7 @@ requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.1"
-black = {version = "^22.1.0"}
+black = {version = "^23.1.0"}
 darglint = "^1.8.1"
 isort = {extras = ["colors"], version = "^5.10.1"}
 mypy = "^0.931"
