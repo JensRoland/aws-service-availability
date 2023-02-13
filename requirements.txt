@@ -8,7 +8,7 @@ importlib-metadata==4.11.1; python_version < "3.8" and python_version >= "3.7" o
 pygments==2.11.2; python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.5"
 requests==2.27.1; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.6.0")
 rich==10.16.2; python_full_version >= "3.6.2" and python_full_version < "4.0.0"
-shellingham==1.4.0; python_version >= "3.6"
+shellingham==1.5.1; python_version >= "3.6"
 typer==0.4.0; python_version >= "3.6"
 typing-extensions==4.1.1; python_version >= "3.7" and python_version < "3.8" and python_full_version >= "3.6.2" and python_full_version < "4.0.0"
 urllib3==1.26.8; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version < "4"
